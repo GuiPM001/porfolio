@@ -25,12 +25,21 @@ const Projects = () => {
         />
 
         <ProjectCard
+          imageSrc={require("assets/images/write-better.png")}
+          projectName="Write Better"
+          projectDescription="Web site that helps you with your English writing skill with Gemini API."
+          repositoryLink="https://github.com/GuiPM001/write-better"
+          demoLink="https://write-better.vercel.app/"
+          technologies={['react', 'typescript', 'tailwind', 'gemini']}
+        />
+
+        <ProjectCard
           imageSrc={require("assets/images/fortune.png")}
           projectName="Fortune Message"
-          projectDescription="A fortune message generator, integrated with GPT to generate different messages every day."
+          projectDescription="A fortune message generator, integrated with Gemini API to generate different messages every day."
           repositoryLink="https://github.com/GuiPM001/fortune-message"
           demoLink="https://fortune-message.vercel.app/"
-          technologies={['react', 'typescript', 'css', 'gpt']}
+          technologies={['react', 'typescript', 'css', 'gemini']}
         />
 
         <ProjectCard
