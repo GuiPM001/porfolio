@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      dosis: 'Dosis'
+    },
     extend: {
       boxShadow: {
         'all': '0px 0px 15px -5px rgba(0, 0, 0, 0.3)',
