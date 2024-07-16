@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-
-export type ExperienceType = {
-  title: string;
-  company: string;
-  startDate: string;
-  endDate?: string;
-  tag?: string;
-};
+import { ExperienceType } from "types/ExperienceType";
 
 const Experiences = () => {
   const experiences: ExperienceType[] = [
