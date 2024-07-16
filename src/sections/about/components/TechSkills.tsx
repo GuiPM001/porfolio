@@ -21,7 +21,7 @@ const TechSkills = () => {
             <TechnologyIcon technology="react" />
             <TechnologyIcon technology="typescript" />
             <TechnologyIcon technology="tailwind" />
-            <TechnologyIcon technology="CSS" />
+            <TechnologyIcon technology="css" />
             <TechnologyIcon technology="jest" />
             <TechnologyIcon technology="testing library" />
           </div>

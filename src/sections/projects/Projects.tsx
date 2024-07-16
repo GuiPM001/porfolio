@@ -33,7 +33,7 @@ const Projects = () => {
       description: "A fortune message generator, integrated with Gemini API to generate different messages every day.",
       repositoryLink: "https://github.com/GuiPM001/fortune-message",
       demoLink: "https://fortune-message.vercel.app/",
-      technologies: ['react', 'typescript', 'CSS', 'gemini']
+      technologies: ['react', 'typescript', 'css', 'gemini']
     },
     {
       id: "sneakers",
